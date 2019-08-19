@@ -1,13 +1,8 @@
 const styles = () => ({
-  box: {
+  cardActions: {
     display: 'flex',
     alignItems: 'center',
-  },
-  shape: {
-    paading: 20,
-    margin: 10,
-    backgroundColor: 'red',
+    justifyContent: 'flex-end',
   },
 });
-
 export default styles;

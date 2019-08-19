@@ -1,0 +1,22 @@
+{
+  "tasks":[
+    {
+      "id": 1,
+      "title": "Leer un libro",
+      "description": "Leer libro de material Ui",
+      "status": 0
+    },
+    {
+      "id": 2,
+      "title": "Jugar futbol",
+      "description": "Con mis amigos",
+      "status": 2
+    },
+    {
+      "id": 1,
+      "title": "Jugar un juego",
+      "description": "",
+      "status": 1
+    }
+  ]
+}
