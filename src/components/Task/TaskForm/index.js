@@ -8,7 +8,7 @@ import AddIcon from '@material-ui/icons/Add';
 import styles from './styles';
 
 export default withStyles(styles)(function TaskForm(props) {
-  const { classes, loadData } = props;
+  const { classes } = props;
   const [open, setOpen] = React.useState(false);
 
   function handleClickOpen() {
@@ -18,7 +18,6 @@ export default withStyles(styles)(function TaskForm(props) {
   function handleClose() {
     setOpen(false);
   }
-
   return (
     <>
       <Button
@@ -30,16 +29,6 @@ export default withStyles(styles)(function TaskForm(props) {
         <AddIcon />
         Agregar nueva tarea
       </Button>
-      <Button
-        variant="contained"
-        color="primary"
-        style={{ margin: 20 }}
-        className={classes.button}
-        onClick={loadData}
-      >
-        Cargar informacion
-      </Button>
-
       <Dialog
         open={open}
         onClose={handleClose}

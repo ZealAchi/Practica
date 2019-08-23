@@ -1,6 +1,6 @@
 import React from 'react';
 import { withStyles } from '@material-ui/styles';
-import LoadingIcon from 'assests/images/Loading.gif';
+import LoadingIcon from 'assests/images/Loading.gif'
 import PropTypes from 'prop-types';
 import { bindActionCreators, compose } from 'redux';
 import { connect } from 'react-redux';

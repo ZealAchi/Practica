@@ -3,8 +3,7 @@ import axios from 'axios';
 class AxiosService {
   constructor() {
     const instance = axios.create();
-    instance.interceptors.response.use(this.handleSuccess, this.handleError);
-    this.instance = instance;
+    this.instance=instance
   }
   handleSuccess(response) {
     return response;
@@ -12,8 +11,8 @@ class AxiosService {
   handleError(error) {
     return Promise.reject(error);
   }
-  get(uri) {
-    return this.instance.get(uri);
+  get(uri){
+    return this.instance.get(url)
   }
 }
 export default new AxiosService();

@@ -1,9 +1,7 @@
-import { combineReducers } from 'redux';
-import taskReducer from './task';
-import uiReducer from './ui';
-const rootReducer = combineReducers({
+import { combineReducers } from "redux";
+import taskReducer from './task'
+const rootReducer=combineReducers({
   task: taskReducer,
-  ui: uiReducer,
 });
 
-export default rootReducer;
+export default rootReducer
